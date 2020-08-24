@@ -1,0 +1,373 @@
+body{
+
+ background-color:#3D3C3B ;
+
+}
+h1{
+  color: white;
+  font-size: 80px;
+  font-family: "blacker";
+}
+h2{
+  color:#C3BFBC ;
+  font-size:15px;
+}
+.cabfja{
+
+width: 100%;
+height: 120px;
+background-color: #1B1A19 ;
+position: relative;
+bottom:50px;
+}
+.capfja{
+
+  width:200px;
+
+}
+.subcapfja{
+position:relative;
+bottom:50px;
+left:10px;
+}
+
+
+
+.logotipo{
+
+position:relative;
+left:20%;
+
+}
+
+.p1{
+
+  display:flex;
+  justify-content:center;
+background-color: #353332 ;
+height:350px;
+width:20%;
+position:relative;
+left:50%;
+bottom:350px;
+min-width: 30%;
+max-width: 30%;
+max-height: 360px;
+clear:both;
+}
+.fsd2{
+
+  position:absolute;
+    bottom:-28px;
+    right:20px;
+
+}
+
+p{
+
+  color:#BFBEBD;
+  font-size:13px;
+  font-family: "sans-serif","helveltica","Averta","finland";
+
+}
+.p3,span{
+margin: 8px;
+
+justify-content: center;
+max-height: 300px;
+
+}
+
+/*lo de abajo lo saque de internet*/
+.barra{
+
+
+  	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+display: flex;
+justify-content: center;
+  }
+
+  .noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+  		-webkit-tap-highlight-color: transparent;
+  }
+
+  button {
+  	width: 150px;
+  	height: 50px;
+  	cursor: pointer;
+  	background: none;
+  	border: 2px solid rgba(255,255,255,0.4);
+  	border-radius: 5px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	overflow: hidden;
+  	transition: 500ms;
+  }
+
+  button:after {
+  	content: 'SOBRE NOSOTROS';
+  	position: absolute;
+  	color: white;
+  	transition: 500ms;
+  }
+
+  .bg {
+  	width: 0px;
+  	height: 50px;
+  	content: '';
+  	z-index: -1;
+  	background: rgba(255,255,255,0.2);
+  	transform: skewX(45deg);
+  	transition: 500ms;
+  }
+
+  button:hover {
+  	border: 2px solid rgba(255,255,255,0.8);
+  }
+
+  button:hover .bg {
+  	background: rgba(255,255,255,0.8);
+  	width: 150px;
+  }
+
+  button:hover:after {
+  	color: black;
+  }
+
+  button:focus {
+  	outline: none;
+  }
+
+
+/*aqui termina lo saque de internet*/
+/*de internet*/
+.espacio{
+
+background-color: #2C2A28 ;
+width:100%;
+height: 100px;
+position:relative;
+bottom:300px;
+}
+h3{
+font-size:30px;
+font-family: "verdana","Symphony-Script","verona","Woodland";
+color:#BBB4AC ;
+text-align: center;
+}
+
+.espacio{
+justify-content: center;
+  background: linear-gradient(
+
+  #191818  ,
+  #272626  ,
+  #3F3D3C ,
+  #575554
+);
+background-size: 1000% 1000%;
+animation: rainbow 4s ease infinite;
+border: none;
+font-size: 50px;
+}
+
+@keyframes rainbow {
+0% {
+  background-position: 94% 0%;
+}
+50% {
+  background-position: 7% 100%;
+}
+100% {
+  background-position: 94% 0%;
+}
+}
+/*aqui termina lo saque de internet*/
+
+.jean{
+width:400px;
+height: 100%;
+background-color:#383736;
+position:relative;
+bottom:250px;
+justify-content: center;
+
+}
+h5{
+  position:absolute;
+color:#D3D2D0 ;
+font-size: 30px !important;
+}
+
+h5:hover{
+  background-color: #575554 ;
+}
+h6:hover{
+  background-color: #575554 ;
+}
+.padre{
+
+display: flex;
+justify-content: center;
+
+}
+.texs{
+
+  display: flex;
+  justify-content: center;
+
+
+}
+.padre2{
+
+display: flex;
+justify-content: center;
+
+}
+.dress{
+
+  width:400px;
+  height:300px;
+  background-color:#383736;
+position:relative;
+bottom:110px;
+  justify-content: center;
+
+}
+
+.padre3{
+
+display: flex;
+justify-content: center;
+
+}
+
+.dress2{
+
+
+    width:400px;
+    height:350px;
+    background-color:#383736;
+  position:relative;
+  top:150px;
+    justify-content: center;
+
+}
+
+.padre4{
+
+display: flex;
+justify-content: center;
+
+}
+
+.camiseta{
+
+  width:400px;
+  height:350px;
+  background-color:#383736;
+  position:relative;
+  top:300px;
+  justify-content: center;
+
+}
+
+.camisas{
+
+  width:400px;
+  height:350px;
+  background-color:#383736;
+  position:relative;
+  top:420px;
+  justify-content: center;
+
+}
+
+.muchos{
+width:100%;
+position:relative;
+top:450px;
+justify-content: center;
+
+}
+
+h6{
+
+color:#D7D7D7 ;
+font-size: 50px;
+
+}
+.barranegra{
+
+background-color:#464343;
+width:100%;
+height: 50px;
+position: relative;
+top:360px;
+}
+
+.final{
+
+background-color:#2C2B2B ;
+width:100%;
+height:250px;
+position: relative;
+top:300px;
+}
+.derechos{
+width: 100%;
+height: 10px;
+
+position:relative;
+top:10px;
+
+}
+
+#crea{
+text-align: center;
+color:white;
+font-size: 20px;
+
+}
+.fac{
+margin: 0 auto;
+width:25px;
+text-align: center;
+justify-content: center;
+position: relative;
+
+
+}
+
+.logo{
+
+margin: 0 auto;
+width:25px;
+text-align: center;
+justify-content: center;
+position: relative;
+
+
+}
+
+
+.subfinal{
+
+text-align: center;
+}
+
+a{
+
+text-decoration: none;
+color:white;
+
+}
